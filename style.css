@@ -1,39 +1,46 @@
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    background-color: #9dd6dd;
-    gap: 50px;  
+
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+margin: 0;
+background-color: #9dd6dd;
+gap: 50px; 
+
 }
 
 .caixa {
-    width: 50%;
-    height: 500px;
-    background: linear-gradient(aqua, #ffffff);
-    /* Corrigido: Adicionei 'px' na sombra */
-    box-shadow: 5px 25px 20px rgba(5, 5, 5, 0.1);
-    border-radius: 5%;
-    position: relative;
-    overflow: hidden;
-}
 
+ width: 50%;
+ height: 500px;
+ background: linear-gradient(aqua, #ffffff);
+box-shadow: 5px 25px 20px rgba(5, 5, 5, 0.1);
+border-radius: 5%;
+position: relative;
+overflow: hidden;
+
+}
 .imag {
-   
-    height: 70%; 
-    width: auto; 
+
+height: 50%;
+width: auto;
+
 }
 
+#geral_ori {
 
+font-size: 38px;
+padding: 6%;
 
-.caixa .dentro {
-    font-size: 38px;
-    padding: 6%;
+}
+#geral{
+
+font-size: 77%;
+font-style: oblique;
 }
 
-.caixa .paragrafo {
-    font-size: 77%;
-    font-style: oblique;
-
+.primario{
+    display: flex;
+    justify-content: center;
 }
