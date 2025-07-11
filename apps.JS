@@ -47,8 +47,6 @@ for (let i = Quantidade_Postos; i > 0 ; i--){
     
      
 }
-
-    
 // para que vc possa achar um menor valor das coisas digitadas pelos usuarios utiliza-se esse codigo
     if ( !menorValor ){
 
